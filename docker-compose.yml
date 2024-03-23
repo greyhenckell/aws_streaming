@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  spark-master:
+    image: bitnami/spart:latest
+    volumes:
+      - ./jobs/opt/bitnami/spark/jobs
+    command: bin/
